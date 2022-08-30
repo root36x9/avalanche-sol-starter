@@ -1,0 +1,29 @@
+{
+  "name": "avalanche-sol-starter",
+  "version": "1.0.0",
+  "description": "The easiest way to build smart contracts on Avalanche.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint:sol": "solhint '{src,script,test}/**/*.sol'",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/root36x9/avalanche-sol-starter.git"
+  },
+  "author": "root36x9 <root36x9@tutanota.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/root36x9/avalanche-sol-starter/issues"
+  },
+  "homepage": "https://github.com/root36x9/avalanche-sol-starter#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solhint": "^3.3.7"
+  }
+}
